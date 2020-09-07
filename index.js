@@ -18,4 +18,8 @@ class Circle{
   set diameter(n){
     this.radius = n/2;
   }
+
+  set circumference(n){
+    this.radius = Math.sqrt(n)/Math.PI
+  }
 }
